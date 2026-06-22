@@ -10,6 +10,7 @@ private CLI source code.
 - The landing page at `https://mv3migrate.elolin.com/`
 - Pricing and purchase guidance
 - How-it-works documentation
+- Install / download guidance
 - FAQ and public validation claims
 - The issue tracker for the public site and product feedback
 
@@ -48,6 +49,7 @@ The product is local-first:
 ## Official links
 
 - Site: https://mv3migrate.elolin.com/
+- Install: https://mv3migrate.elolin.com/install
 - Issues: https://github.com/DevEloLin/mv3migrate-site/issues
 - Contact: `mv3migrate@elolin.com`
 
