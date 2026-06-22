@@ -50,6 +50,6 @@ The product is local-first:
 
 - Site: https://mv3migrate.elolin.com/
 - Install: https://mv3migrate.elolin.com/install
+- Download ZIP: https://mv3migrate.elolin.com/downloads/mv3migrate-core-runtime.zip
 - Issues: https://github.com/DevEloLin/mv3migrate-site/issues
 - Contact: `mv3migrate@elolin.com`
-
