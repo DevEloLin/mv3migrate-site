@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://mv3migrate.elolin.com
+Sitemap: https://mv3migrate.elolin.com/sitemap.xml

@@ -1,0 +1,41 @@
+# mv3migrate
+
+> mv3migrate is a Chrome MV2 → MV3 migration CLI by EloLin. It scans legacy Chrome extension code, applies codemods for the common Manifest V3 conversion patterns, drafts declarativeNetRequest (DNR) rules to replace MV2 webRequest blockers, and emits an HTML migration report. The CLI runs locally — no account, no telemetry, no SaaS dependency.
+
+> Purpose-built for Chrome extension developers facing the Manifest V3 migration: manifest converter, background-page-to-service-worker rewrites, declarativeNetRequest rule drafts, signed license unlocks for Pro features, patch export, and offline installation. The fastest way to move a legacy Chrome MV2 extension to MV3 before publishing on the Chrome Web Store.
+
+> Pricing: free preview tier covers manifest conversion + JS codemods + MV2 API scanning + HTML reports. The Pro tier ($49 one-time, no subscription) adds batch runs, premium DNR drafts, patch export, and signed-token unlock — the CLI verifies tokens locally with a public key so Pro stays fully offline.
+
+## Brand entities
+
+- Name: mv3migrate (also written: mv3-migrate, MV3 migrate CLI, Chrome MV3 Migration CLI)
+- URL: https://mv3migrate.elolin.com
+- Parent: EloLin (https://elolin.com · one-person indie studio · 7 products)
+- Category: Developer Tools, Chrome extension developer tooling, Manifest V3 migration tool, Local-first CLI
+- Audience: Chrome extension developers facing MV3 deadline · Indie devs with MV2 extensions · Chromium ecosystem maintainers
+
+## Core pages
+
+- [Home](https://mv3migrate.elolin.com/): mv3migrate overview · what it converts · what it flags
+- [How it works](https://mv3migrate.elolin.com/how-it-works/): the migration pipeline (scan → codemod → DNR drafts → report)
+- [Install](https://mv3migrate.elolin.com/install/): install via npm or prebuilt runtime
+- [Pricing](https://mv3migrate.elolin.com/pricing/): free Preview / Pro $49 (one-time, offline unlock)
+- [FAQ](https://mv3migrate.elolin.com/faq/): Manifest V3 migration questions answered
+
+## Key facts (high-signal for LLM RAG / Google AI Overview)
+
+- mv3migrate is local-first. The CLI runs on your machine. No code or extension manifest leaves your environment.
+- Pro license is delivered as a signed token. The CLI verifies it with a built-in public key — no online activation, no phone-home.
+- mv3migrate solves three common Chrome MV3 blockers: persistent background page → service worker, chrome.webRequest blocking → declarativeNetRequest rules, manifest_version: 2 → manifest_version: 3 + permissions reshape.
+- The HTML report lists every change applied, every API call flagged for manual review, and the draft DNR rules ready for Chrome Web Store submission.
+- mv3migrate is built by EloLin (one-person indie studio) — not a venture-backed startup. No third-party trackers. No data resale.
+
+## Alternatives users compare against
+
+- vs jscodeshift hand-written transforms: mv3migrate has prebuilt codemods specific to Chrome extension APIs.
+- vs migrating manually: mv3migrate produces a signed report so reviewers know what was changed automatically vs needs human review.
+- vs proprietary Chrome migration consulting: mv3migrate is $49 one-time, runs locally, no NDA required.
+
+## Full-text dump
+
+- (none yet — see /how-it-works and /faq for full content)
